@@ -23,7 +23,6 @@ header {
   padding: 20px 0;
   text-align: left;
 }
-
 header h1 {
   font-size: 1.8em;
   margin-bottom: 10px;
@@ -68,32 +67,6 @@ main {
  text-align: center;
 }
 
-.card {
-  background: #e2dfdf;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  margin-bottom: 25px;
-  text-align: center;
-}
-
-.card h2,
-.card h3 {
-  color: #304f7e;
-  margin-bottom: 10px;
-}
-
-.card .valor {
-  font-size: 1.6em;
-  font-weight: bold;
-  margin: 10px 0;
-}
-
-.card .info {
-  font-size: 0.95em;
-  color: #666;
-}
-
 button {
   background-color: #304f7e;
   color: #e2dfdf;
@@ -102,30 +75,13 @@ button {
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin-bottom: 50px;
 }
 
 button:hover {
   background-color: #304f7e;
 }
-
-/* Grid de investimentos 
-.cards-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-/* Footer 
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 15px 0;
-  margin-top: 40px;
-  font-size: 0.9em;
-}
-*/
-/* Reset básico 
+/*
 Primária: #0052CC (azul escuro)
 
 Secundária: #36B37E (verde confiável)
@@ -134,4 +90,4 @@ Fundo: #F4F5F7 (cinza claro)
 
 Texto: #172B4D (cinza escuro)
 
-
+*/
