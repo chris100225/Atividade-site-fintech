@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #172b4d;
+  color: #e2dfdf;
+  line-height: 1.6;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  background-color: #e2dfdf;
+  color: #172b4d;
+  padding: 20px 0;
+  text-align: left;
+}
+header h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  text-align: left;
+}
+header nav {
+  display: flex;
+  justify-content: left;
+  gap: 25px;
+  margin-left: 25px;
+}
+header nav a {
+  color: #172b4d;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+header nav a:hover {
+  color: #e2dfdf;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+button {
+  background-color: #304f7e;
+  color: #172b4d;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #304f7e;
+}
+main {
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 20px 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.349);
+  width: 300px;
+  margin-left: 1000px;
+}
+
+button {
+  background-color: #304f7e;
+  color: #e2dfdf;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 50px;
+}
+
+button:hover {
+  background-color: #304f7e;
+}
+ /* Card base com bordas arredondadas */
+
+
+/*
+Primária: #0052CC (azul escuro)
+
+Secundária: #36B37E (verde confiável)
+
+Fundo: #F4F5F7 (cinza claro)
+
+Texto: #172B4D (cinza escuro)
+
+*/
